@@ -1,5 +1,10 @@
 defmodule Xlsxir.ParseWorksheet do
-  alias Xlsxir.{Codepoint, ConvertDate, SharedString, Style, TableId, Worksheet}
+  alias Xlsxir.Codepoint
+  alias Xlsxir.ConvertDate
+  alias Xlsxir.SharedString
+  alias Xlsxir.Style
+  alias Xlsxir.TableId
+  alias Xlsxir.Worksheet
   import Xlsxir.ConvertDate, only: [convert_char_number: 1]
 
   @moduledoc """

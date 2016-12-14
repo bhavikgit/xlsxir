@@ -1,5 +1,9 @@
 defmodule Xlsxir do
-  alias Xlsxir.{Index, SaxParser, Timer, Unzip, Worksheet}
+  alias Xlsxir.Index
+  alias Xlsxir.SaxParser
+  alias Xlsxir.Timer
+  alias Xlsxir.Unzip
+  alias Xlsxir.Worksheet
 
   @moduledoc """
   Extracts and parses data from a `.xlsx` file to an Erlang Term Storage (ETS) process and provides various functions for accessing the data.
