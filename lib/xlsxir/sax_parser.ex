@@ -4,7 +4,13 @@ defmodule Xlsxir.SaxParser do
   parsing algorithm for parsing large XML files in chunks, preventing the need to load the entire DOM into memory. Current chunk size is set to 10,000.
   """
 
-  alias Xlsxir.{ParseString, ParseStyle, ParseWorksheet, SharedString, Style, TableId, Worksheet}
+  alias Xlsxir.ParseString
+  alias Xlsxir.ParseStyle
+  alias Xlsxir.ParseWorksheet
+  alias Xlsxir.SharedString
+  alias Xlsxir.Style
+  alias Xlsxir.TableId
+  alias Xlsxir.Worksheet
 
   @chunk 10000
 
